@@ -39,17 +39,18 @@ width: 100%;
 .header__logo{
     margin-top: 2em;
     margin-left: 2em;
-    width: 40%;
+    width: 30%;
 }
 .main__image{
     width: 100%;
-    margin-top: 2em;
+    margin-top: 3.5em;
 }
 .main__title{
     color: white;
     font-family: var(--fontfamily1);
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.4em;
+    margin-top: 0.5em;
 }
 .main__container{
     margin-top: 2.5em;
@@ -59,24 +60,25 @@ width: 100%;
     font-family: var(--font-family2);
     font-weight: 400;
     line-height: 1.5em;
-    margin: 0.5em 0 2em;
+    margin: 0.5em 0 1em;
 }
 .main__button{
     background-color: white;
     border-radius: 20px;
     border-style: none;
-    padding: 0.8em 5em;
+    padding: 1em 6em;
     color: var(--Violet);
     font-family: var(--fontfamily1);
-    font-size: 0.8em;
+    font-size: 0.7em;
     box-shadow: 0 2px 5px 0 rgb(62, 61, 61);
+    margin-bottom: 2em;
 }
 .main__button:hover{
     background-color: var(--Soft-Magenta);
 }
 .icons{
    color: white;
-   margin: 2em 0em;
+   margin: 1em 0em;
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
@@ -91,10 +93,12 @@ width: 100%;
     height: 35px;
     width: 35px;
     color: white;
+    
 }
 @media  screen and (min-width: 768px){
     body{
         background-image: url("../images/bg-desktop.svg");
+        width: 90%;
     }
     .header__logo{
         width: 16%;
@@ -104,9 +108,9 @@ width: 100%;
         display: grid;
         grid-template-columns: 55% 40%;
         grid-template-rows: 70% 30%;
-        gap: 3em;
         margin-left: 50px;
         align-items: center;
+        margin: auto;
     }
 .main__image{
     margin-top: 100px;
@@ -119,4 +123,18 @@ width: 100%;
 .main__title{
     width: 70%;
     font-size: 1.8em;
+}
+footer{
+    width: 100%;
+    margin-left:150px ;
+}
+.icons{
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.icons i:hover{
+    color: var(--Soft-Magenta);
+    border-color: var(--Soft-Magenta);
+}
 }
