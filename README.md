@@ -2,7 +2,7 @@
 
 A responsive landing page for the "Huddle" platform, built using HTML and CSS. The landing page features a section that introduces the platform to the client. This project was completed as part of the Frontend Mentor challenges and aims to showcase the features of the Huddle platform.
 
-![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+![Design preview for the Huddle landing page with single introductory section](./images/Neutral%20Minimal%20Shadow%20Photographer%20Frame%20Mockup%20Pinterest%20Pin.png)
 
 ## Features
 
