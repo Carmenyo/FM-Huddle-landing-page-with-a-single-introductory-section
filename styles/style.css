@@ -18,7 +18,6 @@ body{
     background-repeat: no-repeat;
     background-color: var(--Violet);
     background-size: 100%;
-    background-position: -80px -35px;
     min-width: 375px;
     max-width: 1440px;
     margin: auto;
@@ -72,7 +71,7 @@ width: 100%;
     font-family: var(--fontfamily1);
     font-size: 0.7em;
     box-shadow: 0 2px 5px 0 rgb(62, 61, 61);
-    margin-bottom: 2rem;
+    margin-bottom: rem;
 }
 .main__button:hover{
     background-color: var(--Soft-Magenta);
@@ -93,48 +92,77 @@ width: 100%;
     height: 28px;
     width: 28px;
     color: white;
-    
 }
+
+.footer{
+    margin-top: 4rem;
+}
+.icons i:hover{
+    color: var(--Soft-Magenta);
+    border-color: var(--Soft-Magenta);
+}
+
+
 @media  screen and (min-width: 768px){
     body{
         background-image: url("../images/bg-desktop.svg");
-        width: 90%;
+        
     }
     .header__logo{
-        width: 16%;
+        width: 14rem;
+        margin-top: 3.5rem;
+        margin-left: 4rem;
         margin-bottom: 100px;
     }
     main{
         display: grid;
-        grid-template-columns: 55% 40%;
-        grid-template-rows: 70% 30%;
-        margin-left: 50px;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 80% 20%;
         align-items: center;
-        margin: auto;
+
     }
 .main__image{
-    margin-top: 100px;
-    width: 90%;
+    width: 44.5rem;
+    margin-top: 2rem;
+    margin-left: -4.5rem;
 
 }
 .main__container{
     text-align: start;
 }
+
 .main__title{
-    width: 90%;
-    font-size: 1.8em;
+    width: 30rem;
+    margin-left: -7rem;
+    font-size: 2.3rem;
+    line-height: 4rem;
+    margin-top: -9rem;
 }
-footer{
-    width: 100%;
-    margin-left:150px ;
+.main__paragraph{
+    margin-top: 1rem;
+    margin-left: -7rem;
+    line-height: 1.5rem;
 }
+.main__button{
+    margin-left: -7rem;
+    padding:  0.8rem 4rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+
+}
+.footer{
+  width: 10rem;
+  display: flex;
+  margin-top: -4rem;
+  margin-left: 75rem;
+}
+
 .icons{
-    justify-content: flex-end;
     gap: 1em;
 }
 
-.icons i:hover{
-    color: var(--Soft-Magenta);
-    border-color: var(--Soft-Magenta);
+.icons i{
+    height: 40px;
+    width: 40px;
 }
 }
